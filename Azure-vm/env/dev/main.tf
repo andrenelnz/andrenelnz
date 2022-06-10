@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 module "windowsservers" {
-  source                              = "../Module/windowsservers"
+  source                              = "../../Modules/windowsservers"
   windows-admin-username              = "serveradmin"
   windows-admin-password              = "P@55w0rd!12"
   windows-vm-hostname                 = "winsrv123"
